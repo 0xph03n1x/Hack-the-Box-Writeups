@@ -1,0 +1,163 @@
+{
+  "main": {
+    "id": "01c233890030e31b",
+    "type": "split",
+    "children": [
+      {
+        "id": "366e656cf35627bd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27922f1f205a653d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Busqueda/Busqueda.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "44c4f5cdce3247db",
+    "type": "split",
+    "children": [
+      {
+        "id": "9124a79527401026",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b557d149ba9f4929",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4272ba18355a4028",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9e8d025d5abf7ec4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0be562a8565fe510",
+    "type": "split",
+    "children": [
+      {
+        "id": "fa07d30e2e6442a2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7fc0f00f8da684a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Busqueda/Busqueda.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e281ea5f8d9ef3c1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Busqueda/Busqueda.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "608172963a9ef5d0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e573a637067e7e12",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Busqueda/Busqueda.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "27922f1f205a653d",
+  "lastOpenFiles": [
+    "Busqueda/Pasted image 20230722210034.png",
+    "Busqueda/Busqueda.md",
+    "Busqueda",
+    "Busqueda/Pasted image 20230722221413.png",
+    "Busqueda/Pasted image 20230722221337.png",
+    "Busqueda/Pasted image 20230722221302.png",
+    "Busqueda/Pasted image 20230722215111.png",
+    "Busqueda/Pasted image 20230722214950.png",
+    "Busqueda/Pasted image 20230722214541.png",
+    "Busqueda/Pasted image 20230722211204.png",
+    "Busqueda/Pasted image 20230722210425.png"
+  ]
+}
