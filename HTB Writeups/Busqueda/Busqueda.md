@@ -26,7 +26,10 @@ Nmap done: 1 IP address (1 host up) scanned in 7.81 seconds
 Add searcher.htb to the `/etc/hosts` file to allow for the resolution:
 
 ![[Pasted image 20230722210034.png]]
-[["Pasted image 20230722210034.png"]]
+
+![Hosts File](Pasted_image_20230722210034.png)
+
+
 Looking at the source of the web page I find a reference to a python package/library and github repo `https://github.com/ArjunSharda/Searchor` with version number 2.4.0
 
 ![[Pasted image 20230722210425.png]]
