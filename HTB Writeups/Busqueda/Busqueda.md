@@ -25,36 +25,36 @@ Nmap done: 1 IP address (1 host up) scanned in 7.81 seconds
 
 Add searcher.htb to the `/etc/hosts` file to allow for the resolution:
 
-![[Pasted image 20230722210034.png]]
+![[Busqueda.png]]
 
-![Hosts File](Pasted_image_20230722210034.png)
+![Hosts File](Busqueda-1.png)
 
 
 Looking at the source of the web page I find a reference to a python package/library and github repo `https://github.com/ArjunSharda/Searchor` with version number 2.4.0
 
-![[Pasted image 20230722210425.png]]
+![[Busqueda-2.png]]
 
 
 After grabbing an off-the-shelf exploit from github (https://github.com/twisted007/Searchor_2.4.0_RCE_Python) and running it with the necessary options, I get a shell with the user svc.
 
-![[Pasted image 20230722211204.png]]
+![[Busqueda-3.png]]
 
 After installing my public ssh key in the `.ssh/authorized_keys` file I can ssh to the box with an interactive shell.
 The landing directory contains a .git folder, exploring the config I find a password that can be used by the svc user to run `sudo -l`.
 
-![[Pasted image 20230722214950.png]]
+![[Busqueda-4.png]]
 
 svc:jh1usoih2bkjaspwe92
 
-![[Pasted image 20230722215111.png]]
+![[Busqueda-5.png]]
 
 Playing around with the scripts, it seems like the full-checkups commands is executing the `./full-checkups.sh` scripts.
 When running outside the `/opt/scripts` directory the commands fails -> likely a relative path was used to specify the file.
 
-![[Pasted image 20230722221302.png]]
+![[Busqueda-6.png]]
 
-![[Pasted image 20230722221337.png]]
+![[Busqueda-7.png]]
 
 Create a full-checkup.sh python3 revshell -> add execute bit -> run the command -> I get back a root reverse shell and get the flag.
 
-![[Pasted image 20230722221413.png]]
+![[Busqueda-8.png]]
